@@ -33,6 +33,7 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push sancara/docker-graphql:0.0.2
+        docker push sancara/docker-graphql
         
         
 #    - name: Build the Docker image
